@@ -2,6 +2,20 @@
   "name": "lxl-cli",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "lxl-cli-help": "bin/cli-help.js",
+    "lxl-cli-add": "bin/cli-add.js",
+    "lxl-cli-init": "bin/cli-init.js",
+    "lxl-cli-show": "bin/cli-show.js",
+    "lxl-cli-delete": "bin/cli-delete.js"
+  },
   "author": "jon",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.1",
+    "ora": "^5.4.1"
+  }
 }
