@@ -8,8 +8,6 @@ npm install lxl-cli -g
 
 # 使用
 ```
-  Usage: xr <command>
-
 
   Commands:
 
