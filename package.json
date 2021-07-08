@@ -1,7 +1,4 @@
 {
-  "name": "lxl-cli",
-  "version": "4.0.0",
-  "main": "index.js",
   "bin": {
     "lxl-cli-help": "bin/cli-help.js",
     "lxl-cli-add": "bin/cli-add.js",
@@ -9,6 +6,9 @@
     "lxl-cli-show": "bin/cli-show.js",
     "lxl-cli-delete": "bin/cli-delete.js"
   },
+  "name": "lxl-cli",
+  "version": "4.0.1",
+  "main": "index.js",
   "author": "jon",
   "license": "MIT",
   "devDependencies": {
