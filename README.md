@@ -3,7 +3,7 @@
 
 # 安装
 ```
-yarn add lxl-cli -g
+npm i lxl-cli -g
 ```
 
 # 使用
